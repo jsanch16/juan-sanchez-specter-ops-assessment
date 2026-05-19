@@ -1,6 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
 import { Sieve } from "./sieve";
-import SieveFromIndex from "../index";
 
 describe("Sieve", () => {
   test("valid results", () => {
