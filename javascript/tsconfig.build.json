@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "noEmit": false
+  },
+  "include": ["index.ts", "Sieve/sieve.ts"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}
